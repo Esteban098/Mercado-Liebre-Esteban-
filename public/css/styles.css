@@ -1,1 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
+.burger-menu i {
+    color: white;
+    margin: 10px auto;
+    background-color: blue;
+    padding: 5px;
+    font-size: 28px;
+    border-radius: 5px;
+    width: 45px;
+}
+
+.main {
+    width: 90%;
+    margin: 0% auto;
+}
+
+.p {
+    padding: 16px;
+}
+
+.product {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.product .product-content {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.product .truck-icon {
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+    background-color: white;
+}
+
+nav.navbar ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+nav.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.padding {
+    padding: 16px;
+}
+
+.shadows {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}

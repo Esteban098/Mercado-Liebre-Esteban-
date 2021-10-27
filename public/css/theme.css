@@ -1,70 +1,62 @@
-* {
-   margin: 0%;
-}
-
 html,
 body {
-   font-family: Roboto;
-   background-color: #ebebeb;
-   font-size: 12px;
-   text-align: center;
+    font-family: Roboto;
+    background-color: #ebebeb;
+    font-size: 12px;
 }
-w-50 {
-   width: 50%;
+.text-center {
+    text-align: center;
 }
-
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
 .bg-yellow {
-   background-color: #eac926;
+    background-color: #eac926;
 }
 .bg-dark-grey {
-   background-color: #666;
+    background-color: #666;
 }
 .bg-grey {
-   background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 .bg-green {
-   background-color: #39b54a;
+    background-color: #39b54a;
 }
-.color-bluelight {
-   color: #1259c3;
-   font-size: 2em;
-   margin-bottom: 10px;
-   margin-top: 20px;
-}
-
-.margenes {
-   margin: 10px;
+.icon {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .footer {
-   text-align: center;
+    text-align: center;
 }
 
 .font-small {
-   font-size: 12px;
+    font-size: 12px;
 }
 
 .font-heading {
-   font-size: 24px;
+    font-size: 24px;
 }
 
 .font-price {
-   font-size: 18px;
+    font-size: 18px;
 }
 
 .font-desc {
-   font-size: 16px;
-   color: #39b54a;
+    font-size: 16px;
+    color: #39b54a;
 }
 .font-title {
-   font-size: 16px;
+    font-size: 16px;
 }
 
 .burger-menu {
-   text-align: center;
-   color: white;
-}
-.list {
-   text-align: left;
-   color: black;
+    text-align: center;
+    padding: 10px;
 }
