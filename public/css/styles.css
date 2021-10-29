@@ -32,6 +32,15 @@
     border-top: 1px solid #ebebeb;
     padding: 15px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .product-content .price {
+    width: 30%;
+}
+.product .product-content .discount {
+    width: 70%;
 }
 
 .product .truck-icon {
@@ -46,13 +55,19 @@
 
 nav.navbar ul li {
     list-style: none;
-    font-size: 18px;
+}
+.navbar {
+    font-size: 20px;
 }
 
 nav.navbar ul li a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .border {
@@ -66,4 +81,24 @@ nav.navbar ul li a {
 
 .shadows {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.card {
+    width: 100%;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.sb-1 {
+    flex-grow: 1;
 }

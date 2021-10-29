@@ -18,36 +18,39 @@
 </head>
 
 <body>
-   <header class="bg-yellow p">
-      <section>
-         <h1>
+   <header class="bg-yellow p font-heading text-center">
+      <section class="font-heading text-center top-nav p">
+         <h1 class="w-50">
             <img src="/img/logo-mercado-liebre.svg" alt="Mercado Liebre" />
          </h1>
 
-         <h2 class="font-heading  p text-center">
-            <p>lugar barra de busqueda</p>
-            <p>
-               <i class=" fas fa-hand-holding-usd p"></i>
-               Compra en cuotas y sin tarjetas de credito
-            </p>
-         </h2>
+         <div class="search-bar w-50">
+            <input class="sb-1" type="text">
+            <button>
+               <i class="fas fa-search button"></i>
+            </button>
+         </div>
 
+         <p>
+            <i class=" fas fa-hand-holding-usd p"></i>
+            Compra en cuotas y sin tarjetas de credito
+         </p>
       </section>
 
       <nav class="navbar">
-         <ul>
-            <li><a href="">Ofertas</a></li>
-            <li><a href="">Tiendas Oficiales</a></li>
-            <li><a href="">Ayuda</a></li>
+         <ul class="links">
+            <li style="margin: 0 10px;"><a href=""> Ofertas</a></li>
+            <li style="margin: 0 10px;"><a href=""> Tiendas Oficiales</a></li>
+            <li style="margin: 0 10px;"><a href=""> Ayuda</a></li>
          </ul>
 
-         <ul>
-            <li>
-               <a href="">Creá tu cuenta <i class="far fa-id-card"></i></a>
-            </li>
-            <li>
+         <ul class="links">
+            <li style="margin: 0 10px;">
+               <a href="">Creá tu cuenta <i class=" far fa-id-card"></i></a>
+            </li style="margin: 0 10px;">
+            <li style="margin: 0 10px;">
                <a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a>
-            </li>
+            </li style="margin: 0 5px;">
             <li>
                <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
             </li>
@@ -69,89 +72,110 @@
          </h2>
       </section>
 
-      <section>
-         <article class=" product shadows">
-            <img src="/img/img-cafetera-moulinex.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="price font-price">$6.770</p>
-               <p class="descount font-desc">40% off</p>
-               <h3 class="description font-title">Cafetera Moulinex</h3>
-            </div>
-         </article>
+      <section class="article-container">
+         <div class="card">
+            <article class=" product shadows">
+               <img src="/img/img-cafetera-moulinex.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="price font-price price">$6.770</p>
+                  <p class="descount font-desc discount">40% off</p>
+                  <h3 class="description font-title description">Cafetera Moulinex</h3>
+               </div>
+            </article>
+         </div>
 
-         <article class="product shadows ">
-            <img src="/img/img-macbook-pro-2019.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$230.000</p>
-               <p class="font-desc">20% off</p>
-               <h3 class="font-title description">MacBook Pro 2019</h3>
-            </div>
-         </article>
+         <div class="card">
+            <article class="product shadows ">
+               <img src="/img/img-macbook-pro-2019.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$230.000</p>
+                  <p class="font-desc discount">20% off</p>
+                  <h3 class="font-title description">MacBook Pro 2019</h3>
+               </div>
+            </article>
+         </div>
 
-         <article class=" product shadows">
-            <img src="/img/img-samsung-galaxy-s10.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$70.500</p>
-               <p class="font-desc">10% off</p>
-               <h3 class="font-title description">Samsung Galaxy S10</h3>
-            </div>
-         </article>
+         <div class="card">
+            <article class=" product shadows container">
+               <img src="/img/img-samsung-galaxy-s10.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$70.500</p>
+                  <p class="font-desc discount">10% off</p>
+                  <h3 class="font-title description">Samsung Galaxy S10</h3>
+               </div>
+            </article>
+         </div>
+         <div class="card">
+            <article class=" product shadows">
+               <img src="/img/img-tv-samsung-smart.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$23.200</p>
+                  <p class="font-desc discount">5% off</p>
+                  <h3 class="font-title description">SmartTv Samsung 43"</h3>
+               </div>
+            </article>
+         </div>
 
-         <article class=" product shadows">
-            <img src="/img/img-tv-samsung-smart.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$23.200</p>
-               <p class="font-desc">5% off</p>
-               <h3 class="font-title description">SmartTv Samsung 43"</h3>
-            </div>
-         </article>
       </section>
       <section>
-         <h2 class="font-heading p ">Ofertas</h2>
+         <div>
+            <h2 class="font-heading p ">Ofertas</h2>
+         </div>
+      </section>
 
-         <article class=" product shadows">
-            <img src="/img/img-cafetera-moulinex.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$6.770</p>
-               <p class="font-desc">40% off</p>
-               <h3 class="font-title description>Cafetera Moulinex</h3">
-            </div>
-         </article>
+      <section class="article-container">
+         <div class=" card">
+            <article class=" product shadows">
+               <img src="/img/img-cafetera-moulinex.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$6.770</p>
+                  <p class="font-desc discount">40% off</p>
+                  <h3 class="font-title description">Cafetera Moulinex</h3">
+               </div>
+            </article>
+         </div>
 
-         <article class=" product shadows">
-            <img src="/img/img-macbook-pro-2019.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$230.000</p>
-               <p class="font-desc">20% off</p>
-               <h3 class="font-title description">MacBook Pro 2019</h3>
-            </div>
-         </article>
+         <div class="card">
+            <article class=" product shadows">
+               <img src="/img/img-macbook-pro-2019.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$230.000</p>
+                  <p class="font-desc discount">20% off</p>
+                  <h3 class="font-title description">MacBook Pro 2019</h3>
+               </div>
+            </article>
+         </div>
 
-         <article class=" product shadows">
-            <img src="/img/img-samsung-galaxy-s10.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$70.500</p>
-               <p class="font-desc">10% off</p>
-               <h3 class="font-title description">Samsung Galaxy S10</h3>
-            </div>
-         </article>
+         <div class="card">
+            <article class=" product shadows">
+               <img src="/img/img-samsung-galaxy-s10.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$70.500</p>
+                  <p class="font-desc discount">10% off</p>
+                  <h3 class="font-title description">Samsung Galaxy S10</h3>
+               </div>
+            </article>
+         </div>
 
-         <article class="product shadows">
-            <img src="/img/img-tv-samsung-smart.jpg" class="w-100" alt="" margin-bot />
-            <div class="product-content">
-               <i class="fas fa-truck truck-icon border padding font-desc"></i>
-               <p class="font-price">$23.200</p>
-               <p class="font-desc">5% off</p>
-               <h3 class="font-title description">SmartTv Samsung 43"</h3>
-            </div>
-         </article>
+         <div class="card">
+            <article class="product shadows">
+               <img src="/img/img-tv-samsung-smart.jpg" class="w-100" alt="" margin-bot />
+               <div class="product-content">
+                  <i class="fas fa-truck truck-icon border padding font-desc"></i>
+                  <p class="font-price price">$23.200</p>
+                  <p class="font-desc discount">5% off</p>
+                  <h3 class="font-title description ">SmartTv Samsung 43"</h3>
+               </div>
+            </article>
+         </div>
+
       </section>
    </main>
 
