@@ -22,8 +22,15 @@ body {
 .bg-grey {
     background-color: #ebebeb;
 }
+
+.bg-white {
+    background-color: #ffff;
+}
 .bg-green {
     background-color: #39b54a;
+}
+.bg-blue {
+    background-color: #1259c3;
 }
 .icon {
     color: #1259c3;
@@ -32,14 +39,12 @@ body {
     margin-top: 20px;
 }
 
-.footer {
-    text-align: center;
-}
-
 .font-small {
     font-size: 12px;
 }
-
+.font-noraml {
+    font-weight: normal;
+}
 .font-heading {
     font-size: 24px;
 }

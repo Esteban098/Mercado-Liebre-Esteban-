@@ -29,11 +29,22 @@
     .button {
         padding: 10px;
     }
+    .bar-login {
+        width: 70%;
+    }
+
+    .boton-enviar {
+        width: 70%;
+    }
+    .p-top {
+        padding-top: 5%;
+    }
 }
 
 @media (max-width: 479px) {
     .navbar {
         display: none;
+        font-size: 15px;
     }
     .font-heading {
         font-size: 18px;
@@ -44,7 +55,22 @@
         flex-wrap: wrap;
         align-items: center;
     }
-    .search-bar {
-        margin: 1px;
+
+    .sb-1 {
+        flex-grow: 1;
+        padding: 0px;
+        border-radius: 5px 0px 0px 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border: 5px;
+    }
+
+    .button {
+        padding: 10px;
+        border: 20px;
+        border-radius: 0px 5px 5px 0px;
+        background-color: white;
     }
 }

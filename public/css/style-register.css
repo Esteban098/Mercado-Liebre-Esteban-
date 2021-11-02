@@ -1,0 +1,44 @@
+.register-formularios {
+    border: none;
+    padding: 15px 100px 15px 15px;
+    border-radius: 5px;
+    width: 70%;
+}
+.control-formulario {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.control-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.boton-register {
+    text-align: center;
+    width: auto;
+    color: 666;
+    background-color: #eac926;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.boton-borrar {
+    text-align: center;
+    width: auto;
+    color: white;
+    background-color: #666;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media (min-width: 1200px) {
+    .register-formularios {
+        border: none;
+        padding: 15px 100px 15px 15px;
+        border-radius: 5px;
+        width: 30%;
+    }
+}
