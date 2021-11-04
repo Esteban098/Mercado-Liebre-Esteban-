@@ -62,7 +62,7 @@
     animation: reverse;
 }
 .product:hover .truck-icon {
-    transform: rotateZ(-90deg);
+    transform: rotateZ(360deg);
 }
 
 nav.navbar ul li {
