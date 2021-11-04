@@ -50,8 +50,7 @@
 .product .product-content .discount {
     width: 70%;
 }
-
-.product .truck-icon {
+.truck-icon {
     border-radius: 50%;
     padding: 5px;
     position: absolute;
@@ -59,6 +58,11 @@
     top: -15px;
     color: #39b54a;
     background-color: white;
+    transition: all 0.5s;
+    animation: reverse;
+}
+.product:hover .truck-icon {
+    transform: rotateZ(-90deg);
 }
 
 nav.navbar ul li {
@@ -84,6 +88,12 @@ nav.navbar ul li a {
 }
 
 .shadows {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100, 0);
+    transition: all 0.5s;
+    animation: reverse;
+}
+
+.shadows:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
@@ -140,9 +150,19 @@ nav.navbar ul li a {
     border-radius: 5px;
     padding: 10px;
     width: 100%;
+
+    transition: all 0.2s;
+    animation: reverse;
+}
+
+.boton-enviar:hover {
+    background-color: seagreen;
 }
 
 .display-flex {
     display: flex;
     flex-wrap: wrap;
+}
+.display-flex-nowrap {
+    display: block;
 }

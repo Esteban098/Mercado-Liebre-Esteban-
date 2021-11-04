@@ -29,4 +29,7 @@
     .boton-enviar {
         width: 50%;
     }
+    .display-flex-nowrap {
+        display: flex;
+    }
 }

@@ -37,6 +37,13 @@ body {
     font-size: 2em;
     margin-bottom: 10px;
     margin-top: 20px;
+    transition: all 0.2s;
+    animation: reverse;
+}
+
+.icon:hover {
+    color: black;
+    transform: scale(120%);
 }
 
 .font-small {

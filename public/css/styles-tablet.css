@@ -6,9 +6,17 @@
         width: 50%;
         padding: 20px;
     }
+
     .product-content .description {
-        display: none;
+        opacity: 0%;
     }
+
+    .product:hover .description {
+        opacity: 100%;
+        animation: reverse;
+        transition: all 0.2s;
+    }
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -38,6 +46,9 @@
     }
     .p-top {
         padding-top: 5%;
+    }
+    .font-desc {
+        text-align: center;
     }
 }
 

@@ -16,22 +16,43 @@
 }
 
 .boton-register {
-    text-align: center;
-    width: auto;
-    color: 666;
     background-color: #eac926;
     border: none;
     border-radius: 5px;
     padding: 10px;
+    padding-left: 50px;
+    transition: 0.2s;
+    animation: reverse;
 }
-.boton-borrar {
-    text-align: center;
-    width: auto;
+
+.boton-register:hover {
+    background-color: #0022aa;
+}
+
+.boton-url {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s;
+    animation: reverse;
+}
+.boton-register:hover .boton-url {
     color: white;
-    background-color: #666;
+}
+
+.boton-borrar {
+    color: white;
+    background-color: black;
     border: none;
     border-radius: 5px;
     padding: 10px;
+    transition: all 0.2s;
+    animation: reverse;
+}
+
+.boton-borrar:hover {
+    background-color: red;
 }
 
 @media (min-width: 1200px) {
