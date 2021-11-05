@@ -20,7 +20,7 @@
 }
 
 .p {
-    padding: 16px;
+    padding: 6px;
 }
 
 .p-top {
@@ -79,7 +79,7 @@ nav.navbar ul li a {
 
 .links {
     display: flex;
-    flex-wrap: wrap;
+    margin: 4px;
 }
 
 .border {
@@ -110,6 +110,7 @@ nav.navbar ul li a {
     flex-grow: 1;
     display: flex;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .sb-1 {

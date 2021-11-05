@@ -12,7 +12,7 @@
         font-size: 20px;
     }
     .button {
-        padding: 10px;
+        padding: 5px;
         border: 20px;
         border-radius: 0px 5px 5px 0px;
         background-color: white;
@@ -21,7 +21,7 @@
         font-size: 18px;
     }
     .font-heading {
-        font-size: 28px;
+        font-size: 18px;
     }
     .bar-login {
         width: 50%;
